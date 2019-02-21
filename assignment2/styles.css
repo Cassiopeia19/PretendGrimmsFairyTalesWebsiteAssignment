@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+header {
+	color: #F2DA11;
+	font-family: alex-brush;
+	font-style:italic;
+	font-weight: 400;
+	background-color: saddlebrown;
+	font-size: x-large;
+}
+body{
+	background: -moz-linear-gradient(top,  #ffa853 0%, #fdf9bd 2%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa853),color-stop(2%,#fdf9bd));
+	background: -webkit-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+	background: -o-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+	background: -ms-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+	background: linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa853', endColorstr='#fdf9bd',GradientType=0 );
+	background-repeat: repeat-x;
+	background-color: #fdf9bd;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: oblique;
+	font-weight: 400;
+	color: #000000;
+	font-size: large;
+}
+.nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.nav ul li {
+	float: left;
+}
+.nav {
+	background-color:hsla(27,85%,50%,0.97);
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; 
+	}
+.nav ul li a {
+	display: block;
+	padding: .5em;
+	border: 1px solid #ba89a8;
+	border-radius: .5em;
+	text-decoration: none;
+	color:hsla(61,76%,51%,1.00);
+}
+.nav ul a:focus {
+	color:#fc6;
+	border-color: #fff;
+}
+.asidesection {
+	
+	text-align: left;
+}
+.columns { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+	column-count: 3;
+	column-gap: 20px;
+}
+div.a {
+text-indent: 50px;
+}
+.box1 {
+	float: right;
+	border-radius: 50%;
+}
+.box2 {
+	width: 200px;
+}
+.box3 {
+	width: auto;
+}
+.box4 {
+	width: 300px;
+}
+.box5 {
+	background-color: #FC9;
+	height: 200px;
+	width: 780px;
+	text-align: center ;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 50px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 380px;
+	width: 2px;
+    height: 2px;
+    border: 10px solid;
+	border-radius: 10%;
+    border-color: hsla(27,85%,50%,0.97);;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+	overflow: hidden;
+	
+}
+.box5:hover {
+    width: 320px;
+    height: 200px;
+}
+#fairytaleCastle-background {
+	background-image: url(images/Fairy-Tale-Castle-Scenic-Backdrop.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border: 10px solid hsla(27,85%,50%,0.97);;
+	clear:left;
+}
+#form-wrapper > form {
+	color:#264703;
+	padding: 40px;
+	width:90%;
+	max-width: 500px;
+	display: block;
+	margin:0px auto;
+	background-color: rgba(135,206,250,.6);
+}body header {
+}
